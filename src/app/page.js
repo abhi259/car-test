@@ -12,8 +12,6 @@ import { Canvas } from "@react-three/fiber";
 import { CuboidCollider, Physics, RigidBody } from "@react-three/rapier";
 import { Suspense } from "react";
 import TestCar from "./car/TestCar";
-import { TestCar2 } from "./car/TestCar2";
-import { TestCar3 } from "./car/TestCar3";
 
 export default function Home() {
   const CONTROLS = [
